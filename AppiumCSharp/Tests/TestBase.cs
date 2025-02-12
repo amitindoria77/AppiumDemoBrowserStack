@@ -99,11 +99,13 @@ namespace AppiumCSharp
                 appiumLocalService.Start();
         }
 
-        private void CloseAppiumServer()
-        {
-            if (appiumLocalService.IsRunning)
-                appiumLocalService.Dispose();
-        }
+      private void CloseAppiumServer()
+      {
+          if (appiumLocalService != null && appiumLocalService.IsRunning)
+          {
+              appiumLocalService.Dispose();
+          }
+      }
 
         private void SetUpDriver()
         {

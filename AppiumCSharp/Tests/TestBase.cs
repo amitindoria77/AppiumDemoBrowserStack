@@ -149,7 +149,22 @@ namespace AppiumCSharp
             Report.test.Info($"Browser navigated to {url}");
         }
 
-        private IConfiguration BuildTestDataFile() => configurationBuilder.AddJsonFile(@"Utils\TestsData.json").Build();
+        //private IConfiguration BuildTestDataFile() => configurationBuilder.AddJsonFile(@"Utils\TestsData.json").Build();
+        
+        private IConfiguration BuildTestDataFile()
+        {
+            var basePath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            var testDataFilePath = Path.Combine(basePath, "Utils", "TestsData.json");
+        
+            if (!File.Exists(testDataFilePath))
+            {
+                throw new FileNotFoundException($"The configuration file '{testDataFilePath}' was not found and is not optional.");
+            }
+        
+            return new ConfigurationBuilder()
+                .AddJsonFile(testDataFilePath)
+                .Build();
+        }
 
         protected string GetData(string value) => BuildTestDataFile().GetSection(value).Value;
 

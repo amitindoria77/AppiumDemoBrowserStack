@@ -1,0 +1,8 @@
+﻿userName: amit_MZb0cD
+accessKey: wxfnpeVzvR3JadYms7BT
+buildName: "TestBuild"
+projectName: "AppiumCSharp"
+CUSTOM_TAG_1: "You can set a custom Build Tag here"
+# Use CUSTOM_TAG_<N> and set more build tags as you need.
+testObservability: true
+browserstackAutomation: false # Set to true for tests on BrowserStack products

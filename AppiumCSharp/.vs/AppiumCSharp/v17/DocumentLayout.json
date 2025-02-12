@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\utils\\platformcapabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:utils\\platformcapabilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\tests\\testbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:tests\\testbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\utils\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:utils\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\configfiles\\appsettings.android.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:configfiles\\appsettings.android.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\utils\\testsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:utils\\testsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:pages\\basepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|c:\\users\\b9321\\downloads\\appiumcsharp-master\\appiumcsharp-master\\appiumcsharp\\utils\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC40422C-CAD8-477B-9D26-5DCFDF636001}|AppiumCSharp.csproj|solutionrelative:utils\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginTests.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\LoginTests.cs",
+              "RelativeDocumentMoniker": "Tests\\LoginTests.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\LoginTests.cs",
+              "RelativeToolTip": "Tests\\LoginTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:53:55.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\Startup.cs",
+              "RelativeDocumentMoniker": "Utils\\Startup.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\Startup.cs",
+              "RelativeToolTip": "Utils\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:14:41.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Android.json",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\ConfigFiles\\appsettings.Android.json",
+              "RelativeDocumentMoniker": "ConfigFiles\\appsettings.Android.json",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\ConfigFiles\\appsettings.Android.json",
+              "RelativeToolTip": "ConfigFiles\\appsettings.Android.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T22:25:54.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\Report.cs",
+              "RelativeDocumentMoniker": "Utils\\Report.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\Report.cs",
+              "RelativeToolTip": "Utils\\Report.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:16:09.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlatformCapabilities.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\PlatformCapabilities.cs",
+              "RelativeDocumentMoniker": "Utils\\PlatformCapabilities.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\PlatformCapabilities.cs",
+              "RelativeToolTip": "Utils\\PlatformCapabilities.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:18:15.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasePage.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Pages\\BasePage.cs",
+              "RelativeDocumentMoniker": "Pages\\BasePage.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Pages\\BasePage.cs",
+              "RelativeToolTip": "Pages\\BasePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:20:23.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestsData.json",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\TestsData.json",
+              "RelativeDocumentMoniker": "Utils\\TestsData.json",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Utils\\TestsData.json",
+              "RelativeToolTip": "Utils\\TestsData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T21:17:55.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestBase.cs",
+              "DocumentMoniker": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs",
+              "RelativeDocumentMoniker": "Tests\\TestBase.cs",
+              "ToolTip": "C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs",
+              "RelativeToolTip": "Tests\\TestBase.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAmwG0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T21:18:28.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

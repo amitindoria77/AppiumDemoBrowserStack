@@ -1,0 +1,241 @@
+2025-02-06 22:43:16.0764|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-02-06 22:43:16.1175|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"" --settings "C:\Users\B9321\AppData\Local\Temp\1\.browserstack\.runsettings" --filter "(FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded)"
+2025-02-06 22:43:16.1175|INFO|A.b|Setting test assembly Path - C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-06 22:45:13.9524|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"
+2025-02-06 22:45:13.9578|INFO|A.b|0 : 
+2025-02-06 22:43:16.9593|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 14268
+2025-02-06 22:43:17.0173|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-02-06 22:43:20.3325|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-02-06 22:43:20.3325|INFO|browserstack_sdk.Program|Detected Appium version 4.1.1
+2025-02-06 22:43:20.3325|INFO|browserstack_sdk.Program|Running for f/w nunit 3.12.0
+2025-02-06 22:43:20.6133|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.102
+2025-02-06 22:43:20.7752|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-06 22:43:20.7752|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-02-06 22:43:20.7752|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-02-06 22:43:20.7752|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-02-06 22:43:20.7752|INFO|browserstack_sdk.Program|Few SDK features were not activated as platforms object was not defined
+2025-02-06 22:43:41.6268|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: iegowmvy8wv0ewe2tskpxywrjalvgmp8aqr9iy0o
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-02-06 22:45:10.7487|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+TearDown failed for test fixture AppiumCSharp.Tests.LoginTests
+One or more child tests had errors
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+--TearDown
+   at AppiumCSharp.TestBase.CloseAppiumServer() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 98
+   at AppiumCSharp.TestBase.OneTimeTearDown() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 157
+  Failed IsLoginWithValidCredentialsSucceeded [1 m 24 s]
+  Error Message:
+   System.IO.FileNotFoundException : Could not load file or assembly 'System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+  Stack Trace:
+     at AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded_Patch2(LoginTests this)
+Results File: C:\Users\B9321\AppData\Local\Temp\1\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 1 m 25 s - AppiumCSharp.dll (netcoreapp3.1)
+
+2025-02-06 22:45:11.2508|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/iegowmvy8wv0ewe2tskpxywrjalvgmp8aqr9iy0o to view build report
+
+
+2025-02-06 22:45:13.9578|INFO|A.b|Cleaning up adapter
+2025-02-06 22:45:13.9578|INFO|A.b|Getting results from: C:\Users\B9321\AppData\Local\Temp\1\.browserstack
+2025-02-06 22:54:57.6786|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-02-06 22:54:57.7235|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"" --settings "C:\Users\B9321\AppData\Local\Temp\1\.browserstack\.runsettings" --filter "(FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen)"
+2025-02-06 22:54:57.7235|INFO|A.b|Setting test assembly Path - C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-06 22:55:56.8406|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"
+2025-02-06 22:55:56.8457|INFO|A.b|0 : 
+2025-02-06 22:54:58.4287|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 38900
+2025-02-06 22:54:58.4767|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-02-06 22:55:01.6873|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-02-06 22:55:01.6873|INFO|browserstack_sdk.Program|Detected Appium version 4.1.1
+2025-02-06 22:55:01.6873|INFO|browserstack_sdk.Program|Running for f/w nunit 3.12.0
+2025-02-06 22:55:01.9870|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.102
+2025-02-06 22:55:02.1320|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-06 22:55:02.1320|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-02-06 22:55:02.1320|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-02-06 22:55:02.1320|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-02-06 22:55:02.1320|INFO|browserstack_sdk.Program|Few SDK features were not activated as platforms object was not defined
+2025-02-06 22:55:05.2577|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: 0mduhq4fr0pmeftleych2h9go5bepeg5oq5opdg6
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-02-06 22:55:54.7966|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+TearDown failed for test fixture AppiumCSharp.Tests.LoginTests
+One or more child tests had errors
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+--TearDown
+   at AppiumCSharp.TestBase.CloseAppiumServer() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 98
+   at AppiumCSharp.TestBase.OneTimeTearDown() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 157
+  Failed IsPasswordDisplayedInLoginScreen [45 s]
+  Error Message:
+   System.IO.FileNotFoundException : Could not load file or assembly 'System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+  Stack Trace:
+     at AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen_Patch2(LoginTests this)
+Results File: C:\Users\B9321\AppData\Local\Temp\1\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 46 s - AppiumCSharp.dll (netcoreapp3.1)
+
+2025-02-06 22:55:55.0409|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/0mduhq4fr0pmeftleych2h9go5bepeg5oq5opdg6 to view build report
+
+
+2025-02-06 22:55:56.8457|INFO|A.b|Cleaning up adapter
+2025-02-06 22:55:56.8457|INFO|A.b|Getting results from: C:\Users\B9321\AppData\Local\Temp\1\.browserstack
+2025-02-07 12:48:55.4336|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-02-07 12:48:55.4679|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"" --settings "C:\Users\B9321\AppData\Local\Temp\1\.browserstack\.runsettings" --filter "(FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithInvalidCredentialsWorksCorrectly|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen)"
+2025-02-07 12:48:55.4679|INFO|A.b|Setting test assembly Path - C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 12:49:57.0480|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"
+2025-02-07 12:49:57.0480|INFO|A.b|0 : 
+2025-02-07 12:48:56.0949|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 31584
+2025-02-07 12:48:56.1506|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-02-07 12:48:58.3064|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-02-07 12:48:58.3064|INFO|browserstack_sdk.Program|Detected Appium version 4.1.1
+2025-02-07 12:48:58.3064|INFO|browserstack_sdk.Program|Running for f/w nunit 3.12.0
+2025-02-07 12:48:58.5110|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.102
+2025-02-07 12:48:58.6106|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 12:48:58.6106|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-02-07 12:48:58.6106|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-02-07 12:48:58.6106|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-02-07 12:48:58.6106|INFO|browserstack_sdk.Program|Few SDK features were not activated as platforms object was not defined
+2025-02-07 12:49:02.4353|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: j7xmfk6lksunz31vjgoasvs9rhobxdhbozyep34q
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-02-07 12:49:53.5642|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed IsLoginWithInvalidCredentialsWorksCorrectly [42 s]
+  Error Message:
+   System.IO.FileNotFoundException : Could not load file or assembly 'System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+  Stack Trace:
+     at AppiumCSharp.Tests.LoginTests.IsLoginWithInvalidCredentialsWorksCorrectly_Patch2(LoginTests this)
+  Failed IsPasswordDisplayedInLoginScreen [42 s]
+  Error Message:
+   System.IO.FileNotFoundException : Could not load file or assembly 'System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+  Stack Trace:
+     at AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen_Patch2(LoginTests this)
+  Failed IsLoginWithValidCredentialsSucceeded [47 s]
+  Error Message:
+   System.IO.FileNotFoundException : Could not load file or assembly 'System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. The system cannot find the file specified.
+  Stack Trace:
+     at AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded_Patch2(LoginTests this)
+TearDown failed for test fixture AppiumCSharp.Tests.LoginTests
+One or more child tests had errors
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+--TearDown
+   at AppiumCSharp.TestBase.CloseAppiumServer() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 98
+   at AppiumCSharp.TestBase.OneTimeTearDown() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 157
+Results File: C:\Users\B9321\AppData\Local\Temp\1\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     3, Passed:     0, Skipped:     0, Total:     3, Duration: 48 s - AppiumCSharp.dll (netcoreapp3.1)
+
+2025-02-07 12:49:53.8247|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/j7xmfk6lksunz31vjgoasvs9rhobxdhbozyep34q to view build report
+
+
+2025-02-07 12:49:57.0480|INFO|A.b|Cleaning up adapter
+2025-02-07 12:49:57.0480|INFO|A.b|Getting results from: C:\Users\B9321\AppData\Local\Temp\1\.browserstack
+2025-02-07 12:57:44.9262|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-02-07 12:57:44.9593|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"" --settings "C:\Users\B9321\AppData\Local\Temp\1\.browserstack\.runsettings" --filter "(FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithInvalidCredentialsWorksCorrectly|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen)"
+2025-02-07 12:57:44.9593|INFO|A.b|Setting test assembly Path - C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 12:58:44.1469|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"
+2025-02-07 12:58:44.1469|INFO|A.b|0 : 
+2025-02-07 12:57:45.4596|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 10272
+2025-02-07 12:57:45.4877|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-02-07 12:57:47.6387|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-02-07 12:57:47.6387|INFO|browserstack_sdk.Program|Detected Appium version 4.1.1
+2025-02-07 12:57:47.6387|INFO|browserstack_sdk.Program|Running for f/w nunit 3.12.0
+2025-02-07 12:57:47.8170|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.102
+2025-02-07 12:57:47.9182|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 12:57:47.9182|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-02-07 12:57:47.9182|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-02-07 12:57:47.9194|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-02-07 12:57:47.9194|INFO|browserstack_sdk.Program|Few SDK features were not activated as platforms object was not defined
+2025-02-07 12:57:51.3018|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: 92mpxpro0xdxt5hwssqjctzj8ovfi6btrpnzfllf
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-02-07 12:58:41.7728|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+TearDown failed for test fixture AppiumCSharp.Tests.LoginTests
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+--TearDown
+   at AppiumCSharp.TestBase.CloseAppiumServer() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 98
+   at AppiumCSharp.TestBase.OneTimeTearDown() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 157
+Results File: C:\Users\B9321\AppData\Local\Temp\1\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 47 s - AppiumCSharp.dll (netcoreapp3.1)
+
+2025-02-07 12:58:42.1631|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/92mpxpro0xdxt5hwssqjctzj8ovfi6btrpnzfllf to view build report
+
+
+2025-02-07 12:58:44.1469|INFO|A.b|Cleaning up adapter
+2025-02-07 12:58:44.1469|INFO|A.b|Getting results from: C:\Users\B9321\AppData\Local\Temp\1\.browserstack
+2025-02-07 13:11:00.8911|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-02-07 13:11:00.9396|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"" --settings "C:\Users\B9321\AppData\Local\Temp\1\.browserstack\.runsettings" --filter "(FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithInvalidCredentialsWorksCorrectly|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded|FullyQualifiedName=AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen)"
+2025-02-07 13:11:00.9396|INFO|A.b|Setting test assembly Path - C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 13:11:59.2687|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll"
+2025-02-07 13:11:59.2748|INFO|A.b|0 : 
+2025-02-07 13:11:01.7002|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 4128
+2025-02-07 13:11:01.7439|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-02-07 13:11:05.1517|INFO|browserstack_sdk.Program|Detected Selenium version 3.141.0
+2025-02-07 13:11:05.1517|INFO|browserstack_sdk.Program|Detected Appium version 4.1.1
+2025-02-07 13:11:05.1517|INFO|browserstack_sdk.Program|Running for f/w nunit 3.12.0
+2025-02-07 13:11:05.4471|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.102
+2025-02-07 13:11:05.6344|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\AppiumCSharp.dll
+2025-02-07 13:11:05.6344|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-02-07 13:11:05.6344|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-02-07 13:11:05.6344|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-02-07 13:11:05.6344|INFO|browserstack_sdk.Program|Few SDK features were not activated as platforms object was not defined
+2025-02-07 13:11:10.6635|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-02-07 13:11:56.6922|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.12.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\bin\Debug\netcoreapp3.1\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed IsPasswordDisplayedInLoginScreen [4 s]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.set_Item(TKey key, TValue value)
+   at OpenQA.Selenium.Remote.DesiredCapabilities.set_Item(String capabilityName, Object value)
+   at OpenQA.Selenium.Appium.AppiumOptions.AddAdditionalCapability(String capabilityName, Object capabilityValue)
+   at AppiumCSharp.TestBase.InitializeDriver(PlatformType platformType) in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 46
+   at AppiumCSharp.TestBase.SetUpDriver() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 105
+   at AppiumCSharp.TestBase.SetUp() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 164
+  Failed IsLoginWithValidCredentialsSucceeded [4 s]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.set_Item(TKey key, TValue value)
+   at OpenQA.Selenium.Remote.DesiredCapabilities.set_Item(String capabilityName, Object value)
+   at OpenQA.Selenium.Appium.AppiumOptions.AddAdditionalCapability(String capabilityName, Object capabilityValue)
+   at AppiumCSharp.TestBase.InitializeDriver(PlatformType platformType) in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 46
+   at AppiumCSharp.TestBase.SetUpDriver() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 105
+   at AppiumCSharp.TestBase.SetUp() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 164
+TearDown failed for test fixture AppiumCSharp.Tests.LoginTests
+One or more child tests had errors
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+--TearDown
+   at AppiumCSharp.TestBase.CloseAppiumServer() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 98
+   at AppiumCSharp.TestBase.OneTimeTearDown() in C:\Users\B9321\Downloads\AppiumCSharp-master\AppiumCSharp-master\AppiumCSharp\Tests\TestBase.cs:line 157
+Results File: C:\Users\B9321\AppData\Local\Temp\1\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     2, Passed:     1, Skipped:     0, Total:     3, Duration: 42 s - AppiumCSharp.dll (netcoreapp3.1)
+
+2025-02-07 13:11:57.0217|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp to view build report
+
+
+2025-02-07 13:11:59.2748|INFO|A.b|Cleaning up adapter
+2025-02-07 13:11:59.2748|INFO|A.b|Getting results from: C:\Users\B9321\AppData\Local\Temp\1\.browserstack

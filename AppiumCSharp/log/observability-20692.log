@@ -1,0 +1,402 @@
+[2025-02-07T13:11:17.6962265Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:17.7048460Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:18.1191733Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:18.1341995Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:18.1377036Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:18.5193857Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:18.5316502Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:18.5354785Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:18.9383691Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:18.9506230Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:18.9547120Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:19.2573739Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:19.2697396Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:19.2739314Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:19.6096271Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:19.6285300Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:19.6332523Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:20.0133829Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:20.0282830Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:20.0320620Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:20.3311384Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:20.3358991Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:20.3394960Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:20.6361074Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.E.A(ClassDeclarationSyntax , String , String )
+   at A.E.A(String ) 
+[2025-02-07T13:11:20.7139885Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:20.7180330Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:21.0063624Z][ERROR] :: Unable to find source code and file path: System.Exception: Null source code map found, JsonReport {
+  "start-test": {
+    "@id": "0-1003",
+    "@name": "IsPasswordDisplayedInLoginScreen",
+    "@fullname": "AppiumCSharp.Tests.LoginTests.IsPasswordDisplayedInLoginScreen",
+    "@methodname": "IsPasswordDisplayedInLoginScreen",
+    "@classname": "AppiumCSharp.Tests.LoginTests",
+    "@runstate": "Runnable",
+    "@seed": "649180320",
+    "@result": "Failed",
+    "@label": "Error",
+    "@start-time": "2025-02-07 13:11:13Z",
+    "@end-time": "2025-02-07 13:11:17Z",
+    "@duration": "4.299202",
+    "@asserts": "0",
+    "@parentId": "0-1000",
+    "properties": {
+      "property": [
+        {
+          "@name": "Author",
+          "@value": "Tester"
+        },
+        {
+          "@name": "Category",
+          "@value": "Smoke"
+        },
+        {
+          "@name": "Description",
+          "@value": "Checking that the password is dispalyed at the bottom of the screen"
+        }
+      ]
+    },
+    "failure": {
+      "message": {
+        "#cdata-section": "System.NullReferenceException : Object reference not set to an instance of an object."
+      },
+      "stack-trace": {
+        "#cdata-section": "   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.set_Item(TKey key, TValue value)\r\n   at OpenQA.Selenium.Remote.DesiredCapabilities.set_Item(String capabilityName, Object value)\r\n   at OpenQA.Selenium.Appium.AppiumOptions.AddAdditionalCapability(String capabilityName, Object capabilityValue)\r\n   at AppiumCSharp.TestBase.InitializeDriver(PlatformType platformType) in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 46\r\n   at AppiumCSharp.TestBase.SetUpDriver() in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 105\r\n   at AppiumCSharp.TestBase.SetUp() in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 164"
+      }
+    }
+  }
+}
+   at TestObservability.TestCase.Model.TestCaseStartedModel.a(JObject ) 
+[2025-02-07T13:11:21.3349475Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:21.3392220Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:21.7193341Z][ERROR] :: Unable to find source code and file path: System.Exception: Null source code map found, JsonReport {
+  "start-test": {
+    "@id": "0-1001",
+    "@name": "IsLoginWithValidCredentialsSucceeded",
+    "@fullname": "AppiumCSharp.Tests.LoginTests.IsLoginWithValidCredentialsSucceeded",
+    "@methodname": "IsLoginWithValidCredentialsSucceeded",
+    "@classname": "AppiumCSharp.Tests.LoginTests",
+    "@runstate": "Runnable",
+    "@seed": "1208340882",
+    "@result": "Failed",
+    "@label": "Error",
+    "@start-time": "2025-02-07 13:11:13Z",
+    "@end-time": "2025-02-07 13:11:17Z",
+    "@duration": "4.388995",
+    "@asserts": "0",
+    "@parentId": "0-1000",
+    "properties": {
+      "property": [
+        {
+          "@name": "Author",
+          "@value": "Tester"
+        },
+        {
+          "@name": "Category",
+          "@value": "Sanity"
+        },
+        {
+          "@name": "Description",
+          "@value": "Entering a VALID username and checking that the user is able to login"
+        }
+      ]
+    },
+    "failure": {
+      "message": {
+        "#cdata-section": "System.NullReferenceException : Object reference not set to an instance of an object."
+      },
+      "stack-trace": {
+        "#cdata-section": "   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.set_Item(TKey key, TValue value)\r\n   at OpenQA.Selenium.Remote.DesiredCapabilities.set_Item(String capabilityName, Object value)\r\n   at OpenQA.Selenium.Appium.AppiumOptions.AddAdditionalCapability(String capabilityName, Object capabilityValue)\r\n   at AppiumCSharp.TestBase.InitializeDriver(PlatformType platformType) in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 46\r\n   at AppiumCSharp.TestBase.SetUpDriver() in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 105\r\n   at AppiumCSharp.TestBase.SetUp() in C:\\Users\\B9321\\Downloads\\AppiumCSharp-master\\AppiumCSharp-master\\AppiumCSharp\\Tests\\TestBase.cs:line 164"
+      }
+    }
+  }
+}
+   at TestObservability.TestCase.Model.TestCaseStartedModel.a(JObject ) 
+[2025-02-07T13:11:44.8521310Z][INFO] :: Product linked to Observability:: automate 
+[2025-02-07T13:11:44.8633715Z][INFO] :: Remote Session Found :: False 
+[2025-02-07T13:11:44.8743650Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:44.8795558Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:45.5269732Z][ERROR] :: Error While Receiving Driver Object System.NullReferenceException: Object reference not set to an instance of an object.
+   at BrowserStackSDK.TestObservability.EventsHandler.LogEventsHandler.ReceiveDriver(Object driver, String fullyQualifiedName, String displayName) 
+[2025-02-07T13:11:45.5388931Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:45.5447323Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:45.9217438Z][ERROR] :: Unable to find source code and file path: System.Exception: Null source code map found, fullName AppiumCSharp.Tests.LoginTests.IsLoginWithInvalidCredentialsWorksCorrectly
+   at TestObservability.TestCase.Model.TestCaseStartedModel.A(String , String ) 
+[2025-02-07T13:11:45.9486485Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:45.9512493Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:46.2316665Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:46.2355611Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:46.2376809Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:46.5283238Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:46.5356050Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:46.5379868Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:46.8190081Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:46.8250101Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:46.8273704Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:47.1448385Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:47.1480273Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:47.1503023Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:47.4307614Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:47.4354627Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:47.4374932Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:47.7212003Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:47.7278547Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:47.7306041Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:48.0808191Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:48.0837433Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:48.0862377Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:48.3596840Z][ERROR] :: ClassName Discovery Failed System.NullReferenceException: Object reference not set to an instance of an object.
+   at A.d.A(ClassDeclarationSyntax , String , String )
+   at A.d.A(String ) 
+[2025-02-07T13:11:54.7671123Z][INFO] :: Product linked to Observability:: automate 
+[2025-02-07T13:11:54.7845344Z][INFO] :: Remote Session Found :: False 
+[2025-02-07T13:11:55.7948547Z][INFO] :: All events uploaded successfully for current test 
+[2025-02-07T13:11:55.8262598Z][INFO] :: Product linked to Observability:: automate 
+[2025-02-07T13:11:55.8464111Z][INFO] :: FRAMEWORK FOUND :: CSharp-nunit 
+[2025-02-07T13:11:55.8526028Z][INFO] :: CRASH REPORT :: 
+ {
+  "exception": {},
+  "config": {},
+  "hashed_id": "ce5iayyjyqsb52nuphdjuffzduu4cbtczwmxzcyp",
+  "observability_version": {
+    "frameworkName": "CSharp-nunit",
+    "sdkVersion": "1.16.17",
+    "frameworkVersion": "3.12.0"
+  }
+} 
+[2025-02-07T13:11:56.3186106Z][ERROR] :: Error While Receiving Driver Object Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TestObservability.Model.CBT.Driver..ctor(Object driver)
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at TestObservability.EventsHandler.LogEventsHandler.ReceiveDriver(Object driver) 

@@ -29,6 +29,9 @@ jobs:
 
     - name: Start Appium server
       run: appium &
+      
+    - name: List output directory contents for debugging
+      run: ls -R ./AppiumCSharp/bin/Release/net8.0/
 
     - name: Run tests
       env:

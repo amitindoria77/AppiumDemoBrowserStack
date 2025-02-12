@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '3.1.x' # Ensure this matches your project's .NET version
 
     - name: Install OpenSSL 1.0
-      run: sudo apt-get update && sudo apt-get install -y libssl1.0-dev
+      run: sudo apt-get update && sudo apt-get install -y libssl-dev
 
     - name: Restore dependencies
       run: dotnet restore ./AppiumCSharp/AppiumCSharp.sln

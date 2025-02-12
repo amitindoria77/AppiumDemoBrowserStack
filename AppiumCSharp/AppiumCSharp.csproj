@@ -34,25 +34,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Apps\SauceLabs.ipa">
+    <None Update="Apps/SauceLabs.ipa">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigFiles\appsettings.WebIOS.json">
+    <None Update="ConfigFiles/appsettings.WebIOS.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigFiles\appsettings.WebAndroid.json">
+    <None Update="ConfigFiles/appsettings.WebAndroid.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Apps\SauceLabs.apk">
+    <None Update="Apps/SauceLabs.apk">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Utils\TestsData.json">
+    <None Update="Utils/TestsData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigFiles\appsettings.IOS.json">
+    <None Update="ConfigFiles/appsettings.IOS.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigFiles\appsettings.Android.json">
+    <None Update="ConfigFiles/appsettings.Android.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

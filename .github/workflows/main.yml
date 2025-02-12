@@ -16,16 +16,15 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '3.0.x' # Ensure this matches your project's .NET version
+        dotnet-version: '3.1.x' # Ensure this matches your project's .NET version
 
-    - name: Install OpenSSL 1.0 manually
+    - name: Install OpenSSL 1.1
       run: |
-        wget https://www.openssl.org/source/old/1.0.2/openssl-1.0.2u.tar.gz
-        tar -xzf openssl-1.0.2u.tar.gz
-        cd openssl-1.0.2u
-        ./config
-        make
-        sudo make install
+        sudo apt-get update
+        sudo apt-get install -y libssl1.1 libssl-dev
+
+    - name: Print OpenSSL version for debugging
+      run: openssl version
 
     - name: Restore dependencies
       run: dotnet restore ./AppiumCSharp/AppiumCSharp.sln
@@ -41,7 +40,4 @@ jobs:
 
     - name: Run tests
       env:
-        BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-        BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        BROWSERSTACK_APP_URL: ${{ secrets.BROWSERSTACK_APP_URL }}
-      run: dotnet test --configuration Release --logger "trx;LogFileName=test_results.trx" ./AppiumCSharp/AppiumCSharp.sln
+        BROWSERSTACK_USERNAME: $

@@ -29,8 +29,14 @@ namespace AppiumCSharp
         protected HomePage homePage;
 
         //BrowserStack Credentials
-        private readonly static string username = "amit_MZb0cD";
-        private readonly static string accessKey = "wxfnpeVzvR3JadYms7BT";
+         //private readonly static string username = "amit_MZb0cD";
+         //private readonly static string accessKey = "wxfnpeVzvR3JadYms7BT";
+         //private readonly Uri uri = new Uri($"https://{username}:{accessKey}@hub-cloud.browserstack.com/wd/hub");
+
+         // BrowserStack Credentials
+         private readonly static string username = Environment.GetEnvironmentVariable("BROWSERSTACK_USERNAME");
+         private readonly static string accessKey = Environment.GetEnvironmentVariable("BROWSERSTACK_ACCESS_KEY");
+        
         private readonly Uri uri = new Uri($"https://{username}:{accessKey}@hub-cloud.browserstack.com/wd/hub");
 
         private enum PlatformType

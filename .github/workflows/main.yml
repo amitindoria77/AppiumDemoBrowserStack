@@ -18,10 +18,14 @@ jobs:
       with:
         dotnet-version: '3.1.x' # Ensure this matches your project's .NET version
 
+    - name: Add repository for libssl1.1
+      run: sudo add-apt-repository ppa:nrbrtx/libssl1
+
+    - name: Update package list
+      run: sudo apt-get update
+
     - name: Install OpenSSL 1.1
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libssl1.1 libssl-dev
+      run: sudo apt-get install -y libssl1.1 libssl-dev
 
     - name: Print OpenSSL version for debugging
       run: openssl version

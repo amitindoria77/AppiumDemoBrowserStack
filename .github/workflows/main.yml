@@ -16,7 +16,7 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '3.3.x' # Ensure this matches your project's .NET version
+        dotnet-version: '4.1.x' # Ensure this matches your project's .NET version
 
     - name: Install OpenSSL 1.0 manually
       run: |

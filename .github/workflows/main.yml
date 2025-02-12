@@ -16,7 +16,7 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '3.0.x' # Ensure this matches your project's .NET version
+        dotnet-version: '6.0.x' # Ensure this matches your project's .NET version
 
     - name: Restore dependencies
       run: dotnet restore
@@ -31,4 +31,7 @@ jobs:
       run: appium &
 
     - name: Run tests
+      env:
+              BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+              BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
       run: dotnet test --configuration Release --logger "trx;LogFileName=test_results.trx"
